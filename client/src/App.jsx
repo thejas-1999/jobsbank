@@ -1,4 +1,24 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <h1>home</h1>,
+  },
+  {
+    path: "/about",
+    element: (
+      <div>
+        <h1>about page</h1>
+      </div>
+    ),
+  },
+  {
+    path: "/",
+    element: <h1>home</h1>,
+  },
+]);
 const App = () => {
-  return <h1>Jobbank</h1>;
+  return <RouterProvider router={router} />;
 };
 export default App;

@@ -149,7 +149,7 @@ export default App;
   HomeLayout.jsx
   Landing.jsx
   Login.jsx
-  Profile.jsx
+  Profile.jsX
   Register.jsx
   Stats.jsx
 
